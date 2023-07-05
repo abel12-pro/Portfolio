@@ -69,7 +69,7 @@ For the first milestone in the process of creating my first portfolio website, I
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
-To get a local copy up and running, follow these steps.
+
 
 ### Prerequisites
 
@@ -124,7 +124,6 @@ npx stylelint "\*_/_.{css,scss}"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -163,11 +162,9 @@ If you like this project just share to your families and give me like.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 *Thank You Microverse team that help me with the template of this project.
 
