@@ -7,7 +7,7 @@ body {
 }
 
 #nav,
-#home_presentation{
+#home_presentation {
   background-color: #fff;
 }
 
@@ -66,7 +66,7 @@ body {
   color: #344563;
 }
 
- ul {
+ul {
   display: flex;
   align-items: center;
   padding-left: 0;
