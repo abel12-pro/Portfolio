@@ -10,7 +10,6 @@
 
 </div>
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -42,24 +41,19 @@ For the first milestone in the process of creating my first portfolio website, I
 **Build the first 2 sections of the mobile website using the template you chose in the previous step. 
 
 ## 🛠 Built With <a name="built-with"></a>
-1.css
-2.HTML
-
+     1.css
+     2.HTML
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
   <ul>
-     <li>Linters</li>
+    <li>Linters</li>
     <li>CSS3</li>
     <li>HTML5</li>
     <li>Webhint</li>
     <li>Stylelint</li>
   </ul>
 
-
 ### Key Features <a name="key-features"></a>
-
 
 - **This repository includes navbar**
 - **This repository includes headline**
@@ -68,16 +62,12 @@ For the first milestone in the process of creating my first portfolio website, I
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-
-
 ### Prerequisites
 
 In order to run this project you need:
 1.Install git bash
 2.Install Vscode, Sublime
 3.Web browser 
-
 
 ### Setup
 
@@ -95,12 +85,10 @@ Clone this repository to your desired folder:
 
 To install linters and other project's dependencies run:
 
-
 ```sh
   cd your-folder
   npm install
 ```
-
 
 ### Usage
 
@@ -121,12 +109,10 @@ npx hint .
 npx stylelint "\*_/_.{css,scss}"
 
 ```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Abel Fikre**
 
@@ -137,15 +123,12 @@ npx stylelint "\*_/_.{css,scss}"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🔭 Future Features <a name="future-features"></a>
-
 
 - [ ] **[update the look and feel]**
 - [ ] **[media queries to make the site responsive]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -155,23 +138,19 @@ Feel free to check the [issues page](https://github.com/abel12-pro/H/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project just share to your families and give me like.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+     - **Thank You Microverse team that help me with the template of this project.**
 
-*Thank You Microverse team that help me with the template of this project.
-
-*Thanks to everyone who will get time to check this code and suggest any issues
+     - **Thanks to everyone who will get time to check this code and suggest any issues**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
