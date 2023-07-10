@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
@@ -116,10 +115,9 @@ h3 {
   width: 375px;
   height: 2, 788px;
   top: 718px;
-  padding: 114px 24px 114px 24px;
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
   gap: 88px;
 }
 
@@ -130,15 +128,17 @@ h3 {
   border-radius: 16px;
   border: 1px;
   gap: 1px;
-  background:
-    linear-gradient(0deg, #fff, #fff),
-    linear-gradient(0deg, #dfe1e6, #dfe1e6);
+  background: rgba(255, 255, 255, 1);
 }
 
 .card-image {
-  width: 295px;
   height: 220px;
   border-radius: 8px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
 }
 
 .card-text {
@@ -233,6 +233,21 @@ h3 {
   background: #ebebff;
   border-radius: 8px;
   padding: 8px;
+}
+
+.btn-seeProject {
+  width: 108px;
+  font-size: 17px;
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  height: hug 48px;
+  border-radius: 8px;
+  border: 1px solid #ebebff;
+  gap: 10px;
+  color: rgba(96, 112, 255, 1);
 }
 
 .btn-enabled {
@@ -508,16 +523,23 @@ form {
     color: #091e42;
   }
 
+  .workss {
+    width: 1, 440px;
+    height: 2, 694px;
+    top: 917px;
+    padding: 142px;
+    gap: 142px;
+    border: 1px solid #dfe1e6;
+  }
+
   .card-work {
     width: 1156px;
     height: 496px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: #fff;
-    border: 1px solid #dfe1e6;
-    margin-top: 142px;
-    border-radius: 24px;
-    padding: 24px;
+    margin: 142px;
+    border-radius: 1px;
     flex-wrap: wrap;
     gap: 1px;
   }
@@ -525,7 +547,7 @@ form {
   .input {
     background: #fff;
     border: 1px solid #cfd8dc;
-    border-radius: 8px;
+    border-radius: 10%;
     padding: 15px;
     font-style: normal;
     font-weight: normal;
@@ -537,22 +559,38 @@ form {
   }
 
   .card-image {
-    display: flex;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    margin-top: 142px;
-    border-radius: 24px;
-    padding: 24px;
-    flex-wrap: wrap;
+    width: 544px;
+    height: 488px;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
   }
 
   .card-text {
     width: 544px;
     height: 465px;
-    top: 24px;
-    left: 590px;
     padding: 24px;
     gap: 24px;
+  }
+
+  .icon-card-canopy {
+    width: 320px;
+    gap: 12px;
+  }
+
+  .card-title {
+    width: 496px;
+  }
+
+  .profile-description {
+    width: 496px;
+  }
+
+  .icons-language {
+    width: 203px;
+    gap: 8px;
   }
 
   .main-aboutme {
@@ -566,12 +604,12 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1440px;
-    height: 924px;
+    width: 100%;
+    height: 100%;
     padding: 114px 24px 114px 24px;
-    gap: 24px;
+    gap: 12px;
     background-color: white;
-    border-top-right-radius: 16%;
+    border-top-right-radius: 12px;
   }
 
   .about-item2 {
@@ -581,11 +619,23 @@ form {
     left: 614px;
   }
 
-  .workss {
-    width: 1, 440px;
-    height: 2, 694px;
-    top: 917px;
-    padding: 142px;
-    gap: 142px;
+  .about-item1 {
+    width: 447px;
+    height: 311px;
+    top: 3777px;
+    left: 143px;
+    gap: 24px;
+  }
+
+  .contact-form {
+    width: 1490px;
+    height: 846px;
+    padding: 134 344 134 344;
+    background: rgba(96, 112, 255, 1);
+    border-top-left-radius: 8%;
+    background-image: url(image/Con_Form_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
   }
 }
