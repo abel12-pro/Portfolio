@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
@@ -112,9 +111,380 @@ h3 {
   text-decoration-thickness: 2px;
 }
 
+.workss {
+  width: 375px;
+  height: 2, 788px;
+  top: 718px;
+  list-style-type: none;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 88px;
+}
+
+.card-work {
+  width: 327px;
+  height: 552px;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px;
+  gap: 1px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.card-image {
+  height: 220px;
+  border-radius: 8px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  height: 288px;
+  gap: 4px;
+}
+
+.card-title {
+  width: 295px;
+  height: 36px;
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
+}
+
+.icon-card-canopy {
+  display: flex;
+  width: 236px;
+  height: 32px;
+  gap: 10px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 16px;
+}
+
+.canopy {
+  width: 55px;
+  height: 16px;
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(52, 69, 99, 1);
+}
+
+.counter {
+  width: 8px;
+  height: auto;
+  color: rgba(193, 199, 208, 1);
+}
+
+.bg {
+  height: 16px;
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(122, 134, 154, 1);
+}
+
+.profile-description {
+  width: 100%;
+  height: 76px;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(52, 69, 99, 1);
+}
+
+.icons-language {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding-left: 0;
+  width: 214px;
+  gap: 8px;
+}
+
+.languages {
+  height: 16px;
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(96, 112, 255, 1);
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.btn-seeProject {
+  width: 108px;
+  font-size: 17px;
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  height: hug 48px;
+  border-radius: 8px;
+  border: 1px solid #ebebff;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(96, 112, 255, 1);
+}
+
+.btn-enabled {
+  font-style: normal;
+  width: 170px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid rgba(96, 112, 255, 1);
+}
+
+.main-aboutme {
+  width: 375px;
+  height: 1263px;
+  top: 4769px;
+  left: 375px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.About-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 375px;
+  height: 1062.15px;
+  padding: 15px 24px 14px 24px;
+  gap: 24px;
+  background-color: white;
+  border-top-right-radius: 16%;
+}
+
+.about-item1 {
+  width: 327px;
+  height: 346px;
+  gap: 12px;
+}
+
+.about-myself {
+  width: 100%;
+  height: 35px;
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
+}
+
+.about-content {
+  width: 100%;
+  height: 147px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(52, 69, 99, 1);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  height: 40px;
+  list-style-type: none;
+}
+
+.about-item2 {
+  width: 327px;
+  height: 464.15px;
+}
+
+.lang {
+  display: flex;
+  width: 100%;
+  padding: 16px 26px 16px 12px;
+}
+
+.lang-drop-down-sing {
+  width: 14px;
+  height: 14px;
+  top: 5px;
+  left: 9px;
+  color: rgba(80, 95, 121, 1);
+}
+
+.lang-text {
+  width: 237px;
+  height: 24px;
+  top: 24px;
+  left: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.lang-drop-down {
+  width: 40px;
+  height: 40px;
+  top: 16px;
+  left: 261px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.lang-list {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 248.15px;
+  padding: 12px;
+  gap: 12px;
+  list-style-type: none;
+}
+
+.lang-list-box {
+  display: flex;
+  width: 303px;
+  height: 66.7155990600586px;
+  padding: 9px 12px 9.715599060058594px 12px;
+  border-radius: 8px;
+  background-color: rgba(247, 247, 249, 1);
+  gap: 12px;
+}
+
+.icon-lan {
+  width: 48px;
+  height: 48px;
+  top: 9px;
+  left: 12px;
+  border: 1px;
+}
+
+.contact-form {
+  width: 420px;
+  height: 779px;
+  top: 5410px;
+  margin-top: -20px;
+  background: rgba(96, 112, 255, 1);
+  border-top-left-radius: 7%;
+  background-image: url(image/contact-bg-form.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.contact-me {
+  height: 56px;
+  width: 100%;
+  padding-left: 0;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  padding-top: 85px;
+}
+
+.contact-text {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: rgba(235, 235, 255, 1);
+  width: 327px;
+  height: 137px;
+  top: 4802px;
+  padding-left: 30px;
+}
+
+.input-container {
+  margin-top: 20px;
+  display: block;
+  width: 327px;
+  padding-left: 24px;
+}
+
+.input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  color: #172b4d;
+  width: 300px;
+}
+
+.btn-submit {
+  font-style: normal;
+  width: 142px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin-left: 22px;
+  margin-top: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid rgba(96, 112, 255, 1);
+}
+
+form {
+  margin-top: 47px;
+  width: 327px;
+  padding-left: 15px;
+}
+
 @media screen and (min-width: 768px) {
   header #nav .logo {
-    /* margin-right: 30%; */
     font-family: Poppins, sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -160,11 +530,182 @@ h3 {
   }
 
   .short-presentation {
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
     color: #091e42;
+  }
+
+  .workss {
+    width: 1, 440px;
+    height: 2, 694px;
+    top: 917px;
+    padding: 142px;
+    gap: 142px;
+    border: 1px solid #dfe1e6;
+  }
+
+  .card-work {
+    width: 1156px;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin: 142px;
+    border-radius: 1px;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+
+  .input {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 0%;
+    padding: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    color: #172b4d;
+    width: 300px;
+  }
+
+  .card-image {
+    width: 544px;
+    height: 488px;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-text {
+    width: 544px;
+    height: 465px;
+    padding: 24px;
+    gap: 24px;
+  }
+
+  .icon-card-canopy {
+    width: 320px;
+    gap: 12px;
+  }
+
+  .card-title {
+    width: 496px;
+  }
+
+  .profile-description {
+    width: 496px;
+  }
+
+  .icons-language {
+    width: 203px;
+    gap: 8px;
+  }
+
+  .main-aboutme {
+    width: 1440px;
+    height: 924px;
+    top: 4535px;
+    left: 1440px;
+  }
+
+  .About-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 15px 24px 14px 24px;
+    gap: 12px;
+    background-color: white;
+    border-top-right-radius: 12px;
+  }
+
+  .about-item2 {
+    width: 684px;
+    height: 360px;
+    top: 3753px;
+    left: 614px;
+  }
+
+  .about-item1 {
+    width: 447px;
+    height: 311px;
+    top: 3777px;
+    left: 143px;
+    gap: 24px;
+  }
+
+  .contact-form {
+    width: 1490px;
+    height: 846px;
+    padding: 134 344 134 344;
+    background: rgba(96, 112, 255, 1);
+    border-top-left-radius: 8%;
+    background-image: url(image/Con_Form_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin: 0;
+  }
+
+  .contact-me {
+    height: 56px;
+    width: 801px;
+    padding-left: 300px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+    padding-top: 85px;
+  }
+
+  .contact-text {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+    color: rgba(235, 235, 255, 1);
+    width: 569px;
+    height: 102px;
+    top: 4802px;
+    padding-left: 490px;
+  }
+
+  form {
+    margin-top: 47px;
+    width: 447px;
+    padding-left: 500px;
+  }
+
+  .btn-submit {
+    font-style: normal;
+    width: 142px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    margin-left: 120px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid rgba(96, 112, 255, 1);
   }
 }
