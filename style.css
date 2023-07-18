@@ -214,8 +214,7 @@ h3 {
 
 .icons-language {
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
+  float: left;
   margin-top: 10px;
   padding-left: 0;
   width: 214px;
@@ -271,7 +270,7 @@ h3 {
 
 .main-aboutme {
   width: 375px;
-  height: 1263px;
+  height: 1400px;
   top: 4769px;
   left: 375px;
   background-color: rgba(255, 255, 255, 1);
@@ -398,9 +397,9 @@ h3 {
 
 .contact-form {
   width: 420px;
-  height: 779px;
+  height: 810px;
   top: 5410px;
-  margin-top: -20px;
+  margin-top: -80px;
   background: rgba(96, 112, 255, 1);
   border-top-left-radius: 7%;
   background-image: url(image/contact-bg-form.svg);
@@ -434,6 +433,7 @@ h3 {
   height: 137px;
   top: 4802px;
   padding-left: 30px;
+  padding-top: 0%;
 }
 
 .input-container {
@@ -478,9 +478,16 @@ h3 {
 }
 
 form {
-  margin-top: 47px;
+  margin-top: 4px;
   width: 327px;
   padding-left: 15px;
+}
+
+.shape {
+  width: 134px;
+  height: 5px;
+  margin-top: 50px;
+  margin-left: 153px;
 }
 
 @media screen and (min-width: 768px) {
