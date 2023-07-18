@@ -478,6 +478,8 @@ h3 {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
   margin-top: 47px;
   width: 327px;
   padding-left: 15px;
