@@ -214,7 +214,7 @@ h3 {
 
 .icons-language {
   list-style-type: none;
-  display: flex;
+  float: right;
   flex-wrap: wrap;
   margin-top: 10px;
   padding-left: 0;
