@@ -271,8 +271,7 @@ h3 {
 .main-aboutme {
   width: 375px;
   height: 1400px;
-  top: 4769px;
-  left: 375px;
+  padding-right: 45px;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -418,7 +417,7 @@ h3 {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
-  padding-top: 85px;
+  padding-top: 129px;
 }
 
 .contact-text {
@@ -437,10 +436,10 @@ h3 {
 }
 
 .input-container {
-  margin-top: 20px;
   display: block;
   width: 327px;
   padding-left: 24px;
+  padding-right: 24px;
 }
 
 .input {
@@ -467,10 +466,10 @@ h3 {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   letter-spacing: 0.03em;
   color: #396df2;
   margin-left: 22px;
-  margin-top: 12px;
   box-sizing: border-box;
   border-radius: 8px;
   background-color: #fff;
@@ -479,7 +478,7 @@ h3 {
 
 form {
   margin-top: 4px;
-  width: 327px;
+  width: 100%;
   padding-left: 15px;
 }
 
@@ -502,6 +501,7 @@ form {
 #contactForm {
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
 
 @media screen and (min-width: 768px) {
