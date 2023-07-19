@@ -2,10 +2,6 @@
 
 
 <div align="center">
- 
-  <img src="#" alt="Abel" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Portfolio: add a contact form and finish the mobile version </b></h3>
 
 </div>
@@ -33,9 +29,9 @@
 - [📝 License](#license)
 
 
-# 📖 [Set up Hello Microverse project] <a name="about-project"></a>
+# 📖 [Portfolio: add a contact form and finish the mobile version] <a name="about-project"></a>
 
-For the third milestone of our portfolio website, I :
+For the third milestone in the process of creating my first portfolio website, I will:
 
 - **Add a contact form to my portfolio and the portfolio of my coding partner.**
 
