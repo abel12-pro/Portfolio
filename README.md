@@ -35,10 +35,9 @@
 
 # 📖 [Set up Hello Microverse project] <a name="about-project"></a>
 
-For the first milestone in the process of creating my first portfolio website, I will:
+For the third milestone of our portfolio website, I :
 
-**Set up a new repository and prepare it for development using best practices (e.g. linters).
-**Build the first 2 sections of the mobile website using the template you chose in the previous step. 
+- **Add a contact form to my portfolio and the portfolio of my coding partner.**
 
 ## 🛠 Built With <a name="built-with"></a>
      1.css
