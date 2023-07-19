@@ -490,6 +490,22 @@ form {
   margin-left: 153px;
 }
 
+.btn-submit:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn-submit:active {
+  background: #2230D2;
+  border-radius: 8px;
+}
+
+.btn-submit:disabled {
+  color: #5e6c84;
+}
+
 @media screen and (min-width: 768px) {
   header #nav .logo {
     font-family: Poppins, sans-serif;
