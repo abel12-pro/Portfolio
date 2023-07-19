@@ -506,6 +506,11 @@ form {
   color: #5e6c84;
 }
 
+#contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
   header #nav .logo {
     font-family: Poppins, sans-serif;
