@@ -489,6 +489,7 @@ form {
   border-radius: 8px;
   color: #fff;
 }
+
 .btn-submit:disabled {
   color: #5e6c84;
 }
