@@ -3,7 +3,7 @@
 
 <div align="center">
  
-  <img src="image/contact form shapes-mobile.svg" alt="Abel" width="140"  height="auto" />
+  <img src="#" alt="Abel" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio: add a contact form and finish the mobile version </b></h3>
