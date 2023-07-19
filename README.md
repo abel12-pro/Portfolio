@@ -2,11 +2,7 @@
 
 
 <div align="center">
- 
-  <img src="#" alt="Abel" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Set up a "Hello Microverse" project </b></h3>
+  <h3><b>Portfolio: add a contact form and finish the mobile version </b></h3>
 
 </div>
 
@@ -33,9 +29,9 @@
 - [📝 License](#license)
 
 
-# 📖 [Set up Hello Microverse project] <a name="about-project"></a>
+# 📖 [Portfolio: add a contact form and finish the mobile version] <a name="about-project"></a>
 
-For the first milestone in the process of creating my first portfolio website, I will:
+For the third milestone in the process of creating my first portfolio website, I will:
 
 **Set up a new repository and prepare it for development using best practices (e.g. linters).
 **Build the first 2 sections of the mobile website using the template you chose in the previous step. 
