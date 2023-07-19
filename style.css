@@ -476,6 +476,12 @@ h3 {
   background-color: #fff;
   border: 1px solid rgba(96, 112, 255, 1);
 }
+.btn-submit:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
 
 form {
   margin-top: 4px;
@@ -483,12 +489,7 @@ form {
   padding-left: 15px;
 }
 
-.shape {
-  width: 134px;
-  height: 5px;
-  margin-top: 50px;
-  margin-left: 153px;
-}
+
 
 @media screen and (min-width: 768px) {
   header #nav .logo {
