@@ -3,10 +3,10 @@
 
 <div align="center">
  
-  <img src="#" alt="Abel" width="140"  height="auto" />
+  <img src="image/contact form shapes-mobile.svg" alt="Abel" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Set up a "Hello Microverse" project </b></h3>
+  <h3><b>Portfolio: add a contact form and finish the mobile version </b></h3>
 
 </div>
 
@@ -114,7 +114,6 @@ npx stylelint "\*_/_.{css,scss}"
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Abel Fikre**
-
 
 - GitHub: [@abel12-pro](https://github.com/abel12-pro)
 - Twitter: [@abelfikre2](https://twitter.com/@abelfikre21)
