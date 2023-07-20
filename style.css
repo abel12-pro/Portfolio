@@ -214,8 +214,7 @@ h3 {
 
 .icons-language {
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
+  float: left;
   margin-top: 10px;
   padding-left: 0;
   width: 214px;
@@ -271,9 +270,8 @@ h3 {
 
 .main-aboutme {
   width: 375px;
-  height: 1263px;
-  top: 4769px;
-  left: 375px;
+  height: 1400px;
+  padding-right: 45px;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -398,9 +396,9 @@ h3 {
 
 .contact-form {
   width: 420px;
-  height: 779px;
+  height: 810px;
   top: 5410px;
-  margin-top: -20px;
+  margin-top: -80px;
   background: rgba(96, 112, 255, 1);
   border-top-left-radius: 7%;
   background-image: url(image/contact-bg-form.svg);
@@ -419,7 +417,7 @@ h3 {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
-  padding-top: 85px;
+  padding-top: 129px;
 }
 
 .contact-text {
@@ -434,13 +432,14 @@ h3 {
   height: 137px;
   top: 4802px;
   padding-left: 30px;
+  padding-top: 0%;
 }
 
 .input-container {
-  margin-top: 20px;
   display: block;
   width: 327px;
   padding-left: 24px;
+  padding-right: 24px;
 }
 
 .input {
@@ -467,10 +466,10 @@ h3 {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   letter-spacing: 0.03em;
   color: #396df2;
   margin-left: 22px;
-  margin-top: 12px;
   box-sizing: border-box;
   border-radius: 8px;
   background-color: #fff;
@@ -478,9 +477,31 @@ h3 {
 }
 
 form {
-  margin-top: 47px;
-  width: 327px;
+  margin-top: 4px;
+  width: 100%;
   padding-left: 15px;
+}
+
+.btn-submit:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn-submit:disabled {
+  color: #5e6c84;
+}
+
+.btn-submit:active {
+  background: #2230d2;
+  border-radius: 8px;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 @media screen and (min-width: 768px) {
