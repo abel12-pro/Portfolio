@@ -246,7 +246,6 @@ h3 {
   border-radius: 8px;
   border: 1px solid #ebebff;
   gap: 10px;
- 
   color: rgba(96, 112, 255, 1);
   background-color: blue;
   transition: background-color 0.5s ease;
@@ -258,6 +257,7 @@ h3 {
   border-radius: 8px;
   color: #fff;
 }
+
 .btn-seeProject:disabled {
   color: #5e6c84;
 }
@@ -266,7 +266,6 @@ h3 {
   background: #2230d2;
   border-radius: 8px;
 }
-
 
 .btn-enabled {
   font-style: normal;
