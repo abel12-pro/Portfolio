@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Portfolio: add a contact form and finish the mobile version </b></h3>
+  <h3><b>Portfolio: desktop version </b></h3>
 
 </div>
 
@@ -29,11 +29,11 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio: add a contact form and finish the mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: desktop version] <a name="about-project"></a>
 
-For the third milestone in the process of creating my first portfolio website, I will:
+For the fourth project in my portfolio website, i will:
 
-- **Add a contact form to my portfolio and the portfolio of my coding partner.**
+- **I use media queries to make sure that my website displays correctly on desktop screens.**
 
 ## 🛠 Built With <a name="built-with"></a>
      1.css
