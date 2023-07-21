@@ -11,6 +11,7 @@ body {
 }
 
 #nav {
+  width: auto;
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -34,6 +35,7 @@ body {
 }
 
 #home_presentation {
+  width: auto;
   background-image: url(./image/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: auto;
@@ -111,17 +113,38 @@ h3 {
   text-decoration-thickness: 2px;
 }
 
-.workss {
+.works {
   width: 375px;
-  height: 2, 788px;
+  height: 2788px;
+  top: 718px;
+}
+
+.workss {
+  width: 100%;
+  height: 1000%;
   top: 718px;
   list-style-type: none;
   display: grid;
+  background-color: #e2e3eb;
   grid-template-rows: auto auto auto auto;
   gap: 88px;
 }
 
 .card-work {
+  display: flex;
+  flex-direction: row;
+  width: 327px;
+  height: 552px;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px;
+  gap: 1px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.card-work1 {
+  display: flex;
+  flex-direction: row;
   width: 327px;
   height: 552px;
   padding: 10px;
@@ -132,6 +155,7 @@ h3 {
 }
 
 .card-image {
+  width: 295px;
   height: 220px;
   border-radius: 8px;
 }
@@ -147,6 +171,13 @@ h3 {
   width: 295px;
   height: 288px;
   gap: 4px;
+  padding: 0;
+}
+
+article {
+  width: 496px;
+  height: 98px;
+  gap: 12px;
 }
 
 .card-title {
@@ -165,10 +196,8 @@ h3 {
   display: flex;
   width: 236px;
   height: 32px;
-  gap: 10px;
+  gap: 12px;
   list-style-type: none;
-  padding-left: 0;
-  margin-top: 16px;
 }
 
 .canopy {
@@ -187,6 +216,7 @@ h3 {
   width: 8px;
   height: auto;
   color: rgba(193, 199, 208, 1);
+  font-size: 25px;
 }
 
 .bg {
@@ -215,8 +245,8 @@ h3 {
 .icons-language {
   list-style-type: none;
   float: left;
-  margin-top: 10px;
-  padding-left: 0;
+  margin-top: 0;
+  padding: 0;
   width: 214px;
   gap: 8px;
 }
@@ -242,13 +272,12 @@ h3 {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
-  height: hug 48px;
+  height: 48px;
   border-radius: 8px;
   border: 1px solid #ebebff;
   gap: 10px;
+  background-color: rgba(255, 255, 255, 1);
   color: rgba(96, 112, 255, 1);
-  background-color: blue;
-  transition: background-color 0.5s ease;
 }
 
 .btn-seeProject:hover {
@@ -263,7 +292,7 @@ h3 {
 }
 
 .btn-seeProject:active {
-  background: #2230d2;
+  background: #e2e3eb;
   border-radius: 8px;
 }
 
@@ -287,9 +316,11 @@ h3 {
 
 .main-aboutme {
   width: 375px;
-  height: 1400px;
+  height: 1, 062.15px;
   padding-right: 45px;
   background-color: rgba(255, 255, 255, 1);
+  top: 3506px;
+  gap: 24px;
 }
 
 .About-me {
@@ -308,6 +339,13 @@ h3 {
   width: 327px;
   height: 346px;
   gap: 12px;
+}
+
+.icons-menu {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 .about-myself {
@@ -350,6 +388,7 @@ h3 {
 .lang {
   display: flex;
   width: 100%;
+  height: auto;
   padding: 16px 26px 16px 12px;
 }
 
@@ -576,13 +615,22 @@ form {
     color: #091e42;
   }
 
+  .works {
+    width: 1440px;
+    height: 2694px;
+    top: 917px;
+  }
+
   .workss {
-    width: 1, 440px;
-    height: 2, 694px;
+    width: 100%;
+    height: 100%;
     top: 917px;
     padding: 142px;
     gap: 142px;
-    border: 1px solid #dfe1e6;
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #e5e5e5;
   }
 
   .card-work {
@@ -591,10 +639,20 @@ form {
     display: flex;
     flex-direction: column;
     background: #fff;
-    margin: 142px;
-    border-radius: 1px;
     flex-wrap: wrap;
     gap: 1px;
+    border: 1px solid rgba(223, 225, 230, 1);
+  }
+
+  .card-work1 {
+    width: 1156px;
+    height: 496px;
+    display: flex;
+    flex-direction: row-reverse;
+    background: #fff;
+    flex-wrap: wrap;
+    gap: 1px;
+    border: 1px solid rgba(223, 225, 230, 1);
   }
 
   .input {
@@ -614,6 +672,7 @@ form {
   .card-image {
     width: 544px;
     height: 488px;
+    border-radius: 8px;
   }
 
   .card-image img {
@@ -628,22 +687,98 @@ form {
     gap: 24px;
   }
 
-  .icon-card-canopy {
-    width: 320px;
+  article {
+    width: 496px;
+    height: 98px;
     gap: 12px;
   }
 
+  .icon-card-canopy {
+    width: 100%;
+    height: 30px;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(9, 30, 66, 1);
+  }
+
   .card-title {
-    width: 496px;
+    width: 100%;
+    height: 30px;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(9, 30, 66, 1);
+  }
+
+  .canopy {
+    width: 55px;
+    height: auto;
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(52, 69, 99, 1);
+  }
+
+  .bg {
+    height: auto;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: rgba(122, 134, 154, 1);
   }
 
   .profile-description {
     width: 496px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+
+  .btn-seeProject {
+    font-family: Poppins, sans-serif;
+    width: 126px;
+    font-size: 17px;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid rgba(96, 112, 255, 1);
+    padding: 12px;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(57, 109, 242, 1);
   }
 
   .icons-language {
-    width: 203px;
-    gap: 8px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .languages {
+    height: 24px;
+    font-family: Poppins, sans-serif;
+    background: rgba(235, 235, 255, 1);
+    border-radius: 8px;
+    padding: 4px 12px 4px 12px;
+    text-align: left;
   }
 
   .main-aboutme {
@@ -651,6 +786,8 @@ form {
     height: 924px;
     top: 4535px;
     left: 1440px;
+    margin-top: 284px;
+    padding: 0 0 0 0;
   }
 
   .About-me {
@@ -659,7 +796,7 @@ form {
     justify-content: space-around;
     width: 100%;
     height: 100%;
-    padding: 15px 24px 14px 24px;
+    padding: 150px 24px 14px 24px;
     gap: 12px;
     background-color: white;
     border-top-right-radius: 12px;
@@ -672,12 +809,54 @@ form {
     left: 614px;
   }
 
+  .lang {
+    height: 50px;
+  }
+
+  .lang-drop-down {
+    margin-left: 290px;
+    height: auto;
+  }
+
+  .lang-drop-down-sing {
+    width: 40px;
+    height: 40px;
+    color: rgba(80, 95, 121, 1);
+    margin-left: 298px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .lang-list {
+    flex-direction: row;
+    width: 414px;
+    height: 144px;
+  }
+
+  .lang-list-box {
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
+
   .about-item1 {
     width: 447px;
     height: 311px;
     top: 3777px;
     left: 143px;
     gap: 24px;
+  }
+
+  .icons-menu {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .btn-enabled {
+    display: none;
+    height: 48px;
   }
 
   .contact-form {
