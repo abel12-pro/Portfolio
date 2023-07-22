@@ -531,6 +531,7 @@ article {
   line-height: 20px;
   display: flex;
   color: #172b4d;
+  width: 290px;
 }
 
 .btn-submit {
@@ -913,7 +914,7 @@ article {
     grid-template-rows: 56px 102px 400px;
     align-items: center;
     gap: 20px;
-    padding-top: 90px;
+    padding-top: 150px;
     width: 569px;
     padding-left: 500px;
     padding-right: 100px;
