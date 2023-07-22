@@ -46,7 +46,6 @@ body {
   height: 604px;
   padding: 0 24px;
   border-bottom-left-radius: 12%;
-  
 }
 
 .short-presentation {
@@ -569,6 +568,7 @@ form {
   body {
     width: 1440px;
   }
+
   header #nav .logo {
     font-family: Poppins, sans-serif;
     font-weight: bold;
@@ -609,7 +609,7 @@ form {
 
   #home_presentation {
     background-image: url(./image/Header\ bg@2x.png);
-    background-size:1398px;
+    background-size: 1398px;
     height: 846px;
     padding-left: 100px;
     padding-right: 100px;
@@ -625,12 +625,14 @@ form {
     color: #091e42;
     width: 920px;
   }
+
   #home_presentation p {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
     width: 920px;
   }
+
   .works {
     width: 1156px;
     height: 2694px;
@@ -702,6 +704,7 @@ form {
     padding: 24px;
     gap: 24px;
   }
+
   .icon-card-canopy {
     width: 100%;
     height: 30px;
@@ -799,6 +802,7 @@ form {
     margin-top: 284px;
     padding: 0 0 0 0;
   }
+
   .About-me {
     display: flex;
     flex-direction: row;
@@ -856,12 +860,15 @@ form {
     left: 143px;
     gap: 24px;
   }
+
   .about-myself {
     height: 30px;
   }
+
   .about-content {
     height: 100px;
   }
+
   .icons-menu {
     width: 40px;
     height: 40px;
