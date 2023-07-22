@@ -269,7 +269,8 @@ article {
 }
 
 .btn-seeProject {
-  width: 108px;
+  width: 126px;
+  padding: 12px;
   font-size: 17px;
   margin-top: 12px;
   font-weight: 500;
@@ -290,7 +291,6 @@ article {
   border-radius: 8px;
   color: #fff;
 }
-
 .btn-seeProject:disabled {
   color: #5e6c84;
 }
@@ -317,10 +317,22 @@ article {
   background-color: #fff;
   border: 1px solid rgba(96, 112, 255, 1);
 }
-
+.btn-enabled:hover{
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+.btn-enabled:disabled{
+  color: #5e6c84;
+}
+.btn-enabled:active{
+  background: #030c52;
+  border-radius: 8px;
+}
 .main-aboutme {
   width: 375px;
-  height: 1263px;
+  height: 1400px;
   background-color: rgba(255, 255, 255, 1);
   top: 3506px;
   gap: 24px;
@@ -332,8 +344,8 @@ article {
   flex-direction: column;
   justify-content: space-around;
   width: 327px;
-  height: 834.15px;
-  padding: 15px 24px 14px 24px;
+  height: 1035px;
+  padding: 114px 24px 114px 24px;
   gap: 24px;
   background-color: white;
   border-top-right-radius: 6%;
@@ -392,7 +404,7 @@ article {
 .lang {
   display: flex;
   width: 100%;
-  height: auto;
+  height: 40px;
   padding: 16px 26px 16px 12px;
 }
 
