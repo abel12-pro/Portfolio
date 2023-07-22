@@ -578,7 +578,8 @@ form {
 
 @media screen and (min-width: 768px) {
   body {
-    width: 1440px;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   header #nav .logo {
@@ -598,7 +599,7 @@ form {
     padding: 10px 150px;
     height: 100%;
     align-items: center;
-    width: 1140px;
+    width: 81%;
   }
 
   #nav .internal-link {
@@ -621,11 +622,12 @@ form {
 
   #home_presentation {
     background-image: url(./image/Header\ bg@2x.png);
-    background-size: 1398px;
+    background-repeat: no-repeat;
+    background-size: 99.25%;
     height: 846px;
-    padding-left: 100px;
-    padding-right: 100px;
-    width: 1240px;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 86%;
   }
 
   .short-presentation {
@@ -646,20 +648,21 @@ form {
   }
 
   .works {
-    width: 1156px;
+    width: 98.9%;
     height: 2694px;
     top: 917px;
   }
 
   .workss {
-    width: 1156px;
+    width: 85%;
     height: 2410px;
     top: 917px;
-    padding: 142px;
+    padding: 141px;
     gap: 142px;
     list-style-type: none;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 100%;
     background-color: #e5e5e5;
   }
 
@@ -807,7 +810,7 @@ form {
 
   .main-aboutme {
     border-top-right-radius: 16%;
-    width: 1440px;
+    width: 100%;
     height: 924px;
     top: 4535px;
     left: 1440px;
@@ -819,7 +822,7 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1392px;
+    width: 97%;
     height: 100%;
     padding: 150px 24px 14px 24px;
     gap: 12px;
@@ -894,7 +897,7 @@ form {
   }
 
   .contact-form {
-    width: 1440px;
+    width: 100%;
     height: 846px;
     padding: 134 344 134 344;
     background: rgba(96, 112, 255, 1);
