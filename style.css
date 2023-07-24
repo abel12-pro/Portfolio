@@ -281,9 +281,13 @@ article {
   border-radius: 8px;
   border: 1px solid #ebebff;
   gap: 10px;
+<<<<<<< HEAD
+  background-color: rgba(255, 255, 255, 1);
   color: rgba(96, 112, 255, 1);
-  background-color: blue;
-  transition: background-color 0.5s ease;
+=======
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(96, 112, 255, 1);
+>>>>>>> 2f04a5414b0d0a2eed778135332e13cb4c0db886
 }
 
 .btn-seeProject:hover {
@@ -676,6 +680,26 @@ article {
     background: #fff;
     flex-wrap: wrap;
     gap: 1px;
+    border: 1px solid rgba(223, 225, 230, 1);
+  }
+
+  .card-work1 {
+<<<<<<< HEAD
+    width: 100%;
+    height: 496px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+=======
+    width: 1156px;
+    height: 496px;
+    display: flex;
+    flex-direction: row-reverse;
+>>>>>>> 2f04a5414b0d0a2eed778135332e13cb4c0db886
+    background: #fff;
+    flex-wrap: wrap;
+    gap: 1px;
+    border: 1px solid rgba(223, 225, 230, 1);
   }
 
   .input {
@@ -804,6 +828,12 @@ article {
     height: 924px;
     top: 4535px;
     left: 1440px;
+<<<<<<< HEAD
+    margin-top: 150px;
+=======
+    margin-top: 284px;
+>>>>>>> 2f04a5414b0d0a2eed778135332e13cb4c0db886
+    padding: 0 0 0 0;
   }
 
   .About-me {
