@@ -12,7 +12,7 @@ body {
 }
 
 #nav {
-  width: 351px;
+  width: 93.3%;
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -36,7 +36,7 @@ body {
 }
 
 #home_presentation {
-  width: auto;
+  width: 87%;
   background-image: url(./image/header-shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -117,13 +117,13 @@ h3 {
 }
 
 .works {
-  width: 375px;
+  width: 100%;
   height: 2788px;
   top: 718px;
 }
 
 .workss {
-  width: 327px;
+  width: 87%;
   height: 2560px;
   top: 718px;
   padding: 114px 24px 114px 24px;
@@ -137,7 +137,7 @@ h3 {
 .card-work {
   display: flex;
   flex-direction: column;
-  width: 327px;
+  width: 87%;
   height: 552px;
   padding: 10px;
   border-radius: 16px;
@@ -149,7 +149,7 @@ h3 {
 .card-work1 {
   display: flex;
   flex-direction: column;
-  width: 327px;
+  width: 87%;
   height: 552px;
   padding: 10px;
   border-radius: 16px;
@@ -172,20 +172,13 @@ h3 {
 .card-text {
   display: flex;
   flex-direction: column;
-  width: 295px;
+  width: 90%;
   height: 288px;
   gap: 4px;
   padding: 0;
 }
-
-article {
-  width: 496px;
-  height: 98px;
-  gap: 12px;
-}
-
 .card-title {
-  width: 295px;
+  width: 90%;
   height: 36px;
   font-family: Poppins, sans-serif;
   font-size: 32px;
@@ -281,13 +274,8 @@ article {
   border-radius: 8px;
   border: 1px solid #ebebff;
   gap: 10px;
-<<<<<<< HEAD
   background-color: rgba(255, 255, 255, 1);
-  color: rgba(96, 112, 255, 1);
-=======
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(96, 112, 255, 1);
->>>>>>> 2f04a5414b0d0a2eed778135332e13cb4c0db886
+  color: rgba(57, 109, 242, 1);
 }
 
 .btn-seeProject:hover {
@@ -341,7 +329,7 @@ article {
 }
 
 .main-aboutme {
-  width: 375px;
+  width: 100%;
   height: 1400px;
   background-color: rgba(255, 255, 255, 1);
   top: 3506px;
@@ -353,7 +341,7 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 327px;
+  width: 87%;
   height: 1035px;
   padding: 114px 24px 114px 24px;
   gap: 24px;
@@ -477,7 +465,7 @@ article {
 }
 
 .contact-form {
-  width: 375px;
+  width: 100%;
   height: 779px;
   top: 5410px;
   margin-top: -80px;
@@ -487,21 +475,20 @@ article {
   background-repeat: no-repeat;
   background-position: right;
 }
-
 .contact-form-inner {
   display: grid;
   grid-template-rows: 56px 159px 395px;
   align-items: center;
   gap: 20px;
   padding-top: 90px;
-  width: 100%;
+  width: 95%;
   padding-left: 9px;
   padding-right: 9px;
 }
 
 .contact-me {
   height: 56px;
-  width: 100%;
+  width: 70%;
   font-family: Poppins, sans-serif;
   text-align: center;
   font-style: normal;
@@ -518,6 +505,7 @@ article {
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
+  width:90%;
   color: rgba(235, 235, 255, 1);
 }
 
@@ -578,7 +566,7 @@ article {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  width: 447px;
+  width: 75%;
   padding-left: 23px;
 }
 
@@ -684,18 +672,10 @@ article {
   }
 
   .card-work1 {
-<<<<<<< HEAD
     width: 100%;
     height: 496px;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-=======
-    width: 1156px;
-    height: 496px;
-    display: flex;
-    flex-direction: row-reverse;
->>>>>>> 2f04a5414b0d0a2eed778135332e13cb4c0db886
+    flex-direction: column-reverse;
     background: #fff;
     flex-wrap: wrap;
     gap: 1px;
@@ -828,11 +808,7 @@ article {
     height: 924px;
     top: 4535px;
     left: 1440px;
-<<<<<<< HEAD
     margin-top: 150px;
-=======
-    margin-top: 284px;
->>>>>>> 2f04a5414b0d0a2eed778135332e13cb4c0db886
     padding: 0 0 0 0;
   }
 
