@@ -140,9 +140,8 @@ If you like this project just share to your families and give me like.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-     - **Thank You Microverse team that help me with the template of this project.**
-
-     - **Thanks to everyone who will get time to check this code and suggest any issues**
+   -**Thank You Microverse team that help me with the template of this project**
+   -**Thanks to everyone who will get time to check this code and suggest any issues**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
