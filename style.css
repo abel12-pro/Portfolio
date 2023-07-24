@@ -281,8 +281,9 @@ article {
   border-radius: 8px;
   border: 1px solid #ebebff;
   gap: 10px;
-  background-color: rgba(255, 255, 255, 1);
   color: rgba(96, 112, 255, 1);
+  background-color: blue;
+  transition: background-color 0.5s ease;
 }
 
 .btn-seeProject:hover {
@@ -675,19 +676,6 @@ article {
     background: #fff;
     flex-wrap: wrap;
     gap: 1px;
-    border: 1px solid rgba(223, 225, 230, 1);
-  }
-
-  .card-work1 {
-    width: 100%;
-    height: 496px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    background: #fff;
-    flex-wrap: wrap;
-    gap: 1px;
-    border: 1px solid rgba(223, 225, 230, 1);
   }
 
   .input {
@@ -816,8 +804,6 @@ article {
     height: 924px;
     top: 4535px;
     left: 1440px;
-    margin-top: 150px;
-    padding: 0 0 0 0;
   }
 
   .About-me {

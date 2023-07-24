@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Portfolio: add a contact form and finish the mobile version </b></h3>
+  <h3><b>Portfolio: desktop version </b></h3>
 
 </div>
 
@@ -12,28 +12,25 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
-# 📖 [Portfolio: add a contact form and finish the mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: desktop version] <a name="about-project"></a>
 
-For the third milestone in the process of creating my first portfolio website, I will:
+For the fourth project in my portfolio website, i will:
 
-- **Add a contact form to my portfolio and the portfolio of my coding partner.**
+- **I use media queries to make sure that my website displays correctly on desktop screens.**
 
 ## 🛠 Built With <a name="built-with"></a>
      1.css
@@ -50,8 +47,9 @@ For the third milestone in the process of creating my first portfolio website, I
 
 ### Key Features <a name="key-features"></a>
 
-- **This repository includes navbar**
-- **This repository includes headline**
+- **This repository includes about me**
+- **This repository includes contact form**
+- **This repository includes header**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
