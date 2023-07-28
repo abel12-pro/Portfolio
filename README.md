@@ -29,7 +29,9 @@
 # 📖 [Portfolio: desktop version] <a name="about-project"></a>
 
 For the fourth project in my portfolio website, i will:
-[project presentation] (https://www.loom.com/share/a7c3f6d9e2294792a457929f1c8ba689?sid=a865821c-28e9-4735-84f7-e5b913ada840)
+
+[project presentation] 
+(https://www.loom.com/share/a7c3f6d9e2294792a457929f1c8ba689?sid=a865821c-28e9-4735-84f7-e5b913ada840)
 
 - **I use media queries to make sure that my website displays correctly on desktop screens.**
 
