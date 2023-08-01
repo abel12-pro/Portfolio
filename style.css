@@ -26,7 +26,14 @@ body {
   display: flex;
   align-items: center;
 }
-
+.close-menu {
+  display: none;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 32px;
+  top: 25px;
+}
 #nav nav:hover {
   cursor: pointer;
 }
