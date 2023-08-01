@@ -5,42 +5,54 @@
         <title> Abel mobile setup </title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
     </head>
     <body>
-        <header id="nav">
-            <a class="logo" href="#">Abel</a> 
-            <div class="some-class"> 
-                <nav class="hamburger">
-                  <img src="image/Union.png" alt="Menu">
+        <div class="main-contianer-first">
+            <header class="container">
+                <nav id="navbar" class="nav-mobile-short">
+                  <a class="logo" href="#">Abel F</a>
+                  <i class="fa-solid fa-x close-menu"></i>
+                  <ul>
+                    <li>
+                      <a class="nav-links menu1" href="#works">Portfolio</a>
+                    </li>
+                    <li><a class="nav-links menu2" href="#main-aboutme">About</a></li>
+                    <li>
+                      <a class="nav-links menu3" href="#contact-form">Contact</a>
+                    </li>
+                  </ul>
+                  <i class="fas fa-bars menu"></i>
                 </nav>
-                <ul class="internal-link">
-                  <li><a href="#works">Portfolio</a></li>
-                  <li><a href="#main-aboutme">About</a></li>
-                  <li><a href="#contact-form"> Contact </a></li>
-                </ul> 
-                <i class="fa-solid fa-x close-menu"></i>
-            </div>
-        </header>
-        <section id="home_presentation">
-           <h1 class="short-presentation">I’m Abel Fik.
-            Glad to see you!</h1>
-            <p>
-                I’m a Software Development Engineer ! I can help you build a product ,
-                feature or website Look through some of my work and experience and publish it in the Cloud!
-                If you like what you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <div id="contact">
-              <h3 class="let-connect">LET'S CONNECT</h3>
-              <ul class="menu">
-                <li class="icon"><a href="https://twitter.com/abelfikre21" ><img src="image/twitter.png" alt="Twitter link"></a></li>
-                <li class="icon"><a href="www.linkedin.com/in/ abel-fikre-03b173a" ><img src="image/Linkedin_icon.png" alt="github link"></a></li>
-                <li class="icon"><a href="#" ><img src="image/M.png" alt="github link"></a></li>
-                <li class="icon"><a href="https://github.com/abel12-pro" ><img src="image/github.png" alt="github link"></a></li>
-                <li class="icon"><a href="#" ><img src="image/Vector.svg" alt="Angle link"></a></li>
-              </ul>
-            </div>  
-        </section>
-        <section class="works">
+              </header>
+            <section id="portfolio" class="main">
+                <div class="main-section">
+                    <h1>I’m Abel  Fik. <span>Glad to see you!</span></h1>
+                   <p>
+                        I’m a software developer! I can help you build a product , feature
+                        or website Look through some of my work and experience! If you like
+                        what you see and have a project you need coded, don’t hesitate to
+                        contact me.
+                    </p>
+                   <h3>LET’S CONNECT</h3>
+                   <ul class="social-media">
+                        <li ><a href="https://twitter.com/abelfikre21" ><img src="image/twitter.png" alt="Twitter link"></a></li>
+                        <li ><a href="www.linkedin.com/in/ abel-fikre-03b173a" ><img src="image/Linkedin_icon.png" alt="github link"></a></li>
+                        <li ><a href="#" ><img src="image/M.png" alt="github link"></a></li>
+                        <li ><a href="https://github.com/abel12-pro" ><img src="image/github.png" alt="github link"></a></li>
+                        <li ><a href="#" ><img src="image/Vector.svg" alt="Angle link"></a></li>
+                        </ul>
+                </div>
+            </section>
+        </div>
+       
+        <section class="works" id="works">
           <ul class="workss">
             <li class="card-work">
               <div class="card-image">
@@ -76,8 +88,7 @@
                 <img src="project_image/Snapshoot Portfolio1.png" alt="work image">
               </div>
               <div class="card-text"> 
-                <h2 class="card-title">Multi-Post
-                    Stories</h2>
+                <h2 class="card-title">Multi-Post </h2>
                 <ul class="icon-card-canopy">
                     <li class="canopy">CANOPY</li>
                     <li class="counter">&bull;</li>
@@ -92,7 +103,6 @@
                 </p>
                 <ul class="icons-language">
                     <li class="languages">html</li>
-                    <li class="languages">Ruby on rails</li>
                     <li class="languages">css</li>
                     <li class="languages">javascript
                     </li>
@@ -122,7 +132,6 @@
                 </p>
                 <ul class="icons-language">
                     <li class="languages">html</li>
-                    <li class="languages">Ruby on rails</li>
                     <li class="languages">css</li>
                     <li class="languages">javascript
                     </li>
@@ -137,8 +146,7 @@
                 <img src="project_image/Snapshoot Portfolio3.png" alt="work image">
               </div>
               <div class="card-text"> 
-                <h2 class="card-title">Multi-Post
-                    Stories</h2>
+                <h2 class="card-title">Multi-Post </h2>
                 <ul class="icon-card-canopy">
                     <li class="canopy">CANOPY</li>
                     <li class="counter">&bull;</li>
@@ -153,7 +161,6 @@
                 </p>
                 <ul class="icons-language">
                     <li class="languages">html</li>
-                    <li class="languages">Ruby on rails</li>
                     <li class="languages">css</li>
                     <li class="languages">javascript
                     </li>
@@ -165,7 +172,8 @@
             </li>
           </ul>
         </section>
-        <section class="main-aboutme"> 
+
+        <section class="main-aboutme" id="main-aboutme"> 
             <div class="About-me">
                 <div class="about-item1">
                     <h2 class="about-myself">About  Myself</h2>
@@ -246,7 +254,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact-form">
+        <section class="contact-form" id="contact-form">
             <div class="contact-form-inner">
                 <h2 class="contact-me">Contact me</h2>
                 <p class="contact-text">
@@ -277,5 +285,6 @@
                 </form>
             </div>   
         </section>
+        <script src="script.js"></script>
     </body>
 </html>
