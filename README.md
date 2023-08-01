@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Portfolio: desktop version </b></h3>
+  <h3><b>Portfolio - mobile menu </b></h3>
 
 </div>
 
@@ -26,33 +26,34 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio: desktop version] <a name="about-project"></a>
+# 📖 [Portfolio - mobile menu] <a name="about-project"></a>
 
-For the fourth project in my portfolio website, i will:
-
-[project presentation] 
-(https://www.loom.com/share/a7c3f6d9e2294792a457929f1c8ba689?sid=a865821c-28e9-4735-84f7-e5b913ada840)
-
-- **I use media queries to make sure that my website displays correctly on desktop screens.**
+For this milestone of my portfolio website,I implement the mobile menu using JavaScript knowledge.
 
 ## 🛠 Built With <a name="built-with"></a>
      1.css
      2.HTML
+     3.Javascript
 
 ### Tech Stack <a name="tech-stack"></a>
   <ul>
-    <li>Linters</li>
+    <li>Javascript</li>
     <li>CSS3</li>
     <li>HTML5</li>
     <li>Webhint</li>
     <li>Stylelint</li>
+    <li>ESLint</li>
   </ul>
 
 ### Key Features <a name="key-features"></a>
 
-- **This repository includes about me**
-- **This repository includes contact form**
-- **This repository includes header**
+-**When the user clicks (or taps) the hamburger button, the mobile menu appears.**
+
+-**When the user clicks (or taps) the close (X) button, the mobile menu disappears.**
+
+-**When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.**
+
+-**When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,8 +121,8 @@ npx stylelint "\*_/_.{css,scss}"
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[update the look and feel]**
-- [ ] **[media queries to make the site responsive]**
+- [ ] **adding pop menu**
+- [ ] **adding data storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
