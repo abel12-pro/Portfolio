@@ -48,10 +48,10 @@ For this milestone of my portfolio website,I implement the mobile menu using Jav
 
 ### Key Features <a name="key-features"></a>
 
--When the user clicks (or taps) the hamburger button, the mobile menu appears.
--When the user clicks (or taps) the close (X) button, the mobile menu disappears.
--When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
--When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+-[]**When the user clicks (or taps) the hamburger button, the mobile menu appears.**
+-[]**When the user clicks (or taps) the close (X) button, the mobile menu disappears.**
+-[]**When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.**
+-[]**When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,8 +125,8 @@ npx stylelint "\*_/_.{css,scss}"
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[update the look and feel]**
-- [ ] **[media queries to make the site responsive]**
+- [ ] **adding pop menu**
+- [ ] **adding data storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
