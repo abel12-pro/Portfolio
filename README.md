@@ -12,7 +12,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -55,12 +54,6 @@ For this milestone of my portfolio website,I implement the mobile menu using Jav
 -**When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.**
 
 -**When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](github.com/abel12-pro/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
