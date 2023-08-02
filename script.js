@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const form = document.querySelector('#contactForm');
-  const formSubmit = form.querySelector('.form-submit');
+  const formSubmit = form.querySelector('.btn-submit');
   const name = form.querySelector('#name');
   const email = form.querySelector('#email');
   const message = form.querySelector('#description');
