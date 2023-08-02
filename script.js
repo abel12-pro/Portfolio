@@ -60,6 +60,4 @@ document.addEventListener('DOMContentLoaded', () => {
       form.submit();
     }
   });
-
-
 });
