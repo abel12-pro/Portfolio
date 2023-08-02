@@ -219,6 +219,7 @@ p strong {
   padding: 4px 12px;
   border-radius: 8px;
 }
+
 .project-name i {
   display: none;
 }
@@ -580,9 +581,6 @@ fieldset button:active {
 .project-close-btn {
   display: none;
   cursor: pointer;
-}
-
-.project-name i {
   color: #67798e;
 }
 
