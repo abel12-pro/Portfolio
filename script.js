@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  //pop up 
+  // pop up
   const projects = [
     {
       id: 'project-1',
@@ -240,6 +240,4 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-
-
 });
