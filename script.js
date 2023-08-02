@@ -37,12 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
     item.addEventListener('click', closeMobileMenu);
   });
 
-
   const form = document.querySelector('#contactForm');
   const formSubmit = form.querySelector('#form-submit');
-  const name = form.querySelector('#name');
   const email = form.querySelector('#email');
-  const message = form.querySelector('#description');
   const showError = form.querySelector('span');
 
   function emailLowerCase() {
@@ -63,6 +60,4 @@ document.addEventListener('DOMContentLoaded', () => {
       form.submit();
     }
   });
-
-
 });
