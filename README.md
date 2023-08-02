@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Portfolio: validate contact form </b></h3>
+  <h3><b>Portfolio: details popup window</b></h3>
 
 </div>
 
@@ -26,10 +26,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio: validate contact form] <a name="about-project"></a>
+# 📖 [Portfolio: details popup window] <a name="about-project"></a>
 
 
-**For this milestone of our portfolio website, we will implement a client-side validation of the data in the contact form before submission.**
+**For this milestone of our portfolio website, we implement a popup window that includes the project details in both desktop and mobile. In order to do that, we used to store the information about our projects in a JavaScript object..**
 
 
 
@@ -50,13 +50,11 @@
 
 ### Key Features <a name="key-features"></a>
 
--**The content of the email field has to be in lower case.**
+-**When the user clicks (or taps) the button to check project details, the popup with details about the project appears.**
 
 -**When the user submits the form, you check if the email is in lower case.**
 
--**If the validation is OK, the form is sent.**
-
--**If the validation is not OK, you show an error message to the user near the submit button informing them of the error and the form is not sent.**
+-**You should implement popups for both mobile and desktop screen sizes.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
