@@ -36,10 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   menuItems.forEach((item) => {
     item.addEventListener('click', closeMobileMenu);
   });
-
-
-  
-const form = document.querySelector('#contactForm');
+  const form = document.querySelector('#contactForm');
   const formSubmit = form.querySelector('#form-submit');
   const email = form.querySelector('#email');
   const showError = form.querySelector('span');
