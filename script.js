@@ -36,12 +36,27 @@ document.addEventListener('DOMContentLoaded', () => {
   menuItems.forEach((item) => {
     item.addEventListener('click', closeMobileMenu);
   });
-
-
-  
   const form = document.querySelector('#contactForm');
-  const formSubmit = form.querySelector('.form-submit');
-  const name = form.querySelector('#name');
+  const formSubmit = form.querySelector('#form-submit');
   const email = form.querySelector('#email');
-  const message = form.querySelector('#description');
+  const showError = form.querySelector('span');
+
+  function emailLowerCase() {
+    const emailValue = email.value;
+    if (emailValue.toLowerCase() === emailValue) {
+      showError.innerText = '';
+      return true;
+    }
+    showError.classList.add('error');
+    showError.innerText = `Please make your Email in lowercase. You need to type like this ${emailValue.toLowerCase()}`;
+    return false;
+  }
+
+  formSubmit.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    if (emailLowerCase()) {
+      form.submit();
+    }
+  });
 });

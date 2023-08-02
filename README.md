@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Portfolio - mobile menu </b></h3>
+  <h3><b>Portfolio: validate contact form </b></h3>
 
 </div>
 
@@ -26,9 +26,12 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio - mobile menu] <a name="about-project"></a>
+# 📖 [Portfolio: validate contact form] <a name="about-project"></a>
 
-For this milestone of my portfolio website,I implement the mobile menu using JavaScript knowledge.
+
+**For this milestone of our portfolio website, we will implement a client-side validation of the data in the contact form before submission.**
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
      1.css
@@ -47,13 +50,13 @@ For this milestone of my portfolio website,I implement the mobile menu using Jav
 
 ### Key Features <a name="key-features"></a>
 
--**When the user clicks (or taps) the hamburger button, the mobile menu appears.**
+-**The content of the email field has to be in lower case.**
 
--**When the user clicks (or taps) the close (X) button, the mobile menu disappears.**
+-**When the user submits the form, you check if the email is in lower case.**
 
--**When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.**
+-**If the validation is OK, the form is sent.**
 
--**When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.**
+-**If the validation is not OK, you show an error message to the user near the submit button informing them of the error and the form is not sent.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
