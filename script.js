@@ -37,7 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
     item.addEventListener('click', closeMobileMenu);
   });
 
-  const form = document.querySelector('#contactForm');
+
+  
+const form = document.querySelector('#contactForm');
   const formSubmit = form.querySelector('#form-submit');
   const email = form.querySelector('#email');
   const showError = form.querySelector('span');
@@ -49,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return true;
     }
     showError.classList.add('error');
-    showError.innerText = `Email should be in lowercase. You need to type like this ${emailValue.toLowerCase()}`;
+    showError.innerText = `Please make your Email in lowercase. You need to type like this ${emailValue.toLowerCase()}`;
     return false;
   }
 
