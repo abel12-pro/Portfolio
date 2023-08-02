@@ -120,6 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="card-inner">
       <div class="project-name">
         <h2>${projects[i].name}</h2>
+        <i class="fa-solid fa-xmark fa-xl project-close-btn"></i>
       </div>
       <p>
         <strong>${projects[i].roles[0]}</strong>
