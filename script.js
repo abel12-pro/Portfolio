@@ -240,4 +240,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+  // preserve data in the browser
+  
 });
