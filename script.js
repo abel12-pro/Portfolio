@@ -241,5 +241,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
   // preserve data in the browser
-  
+  const name = form.querySelector('#name');
+  const message = form.querySelector('#message');
 });
