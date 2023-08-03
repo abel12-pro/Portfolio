@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Portfolio: details popup window</b></h3>
+  <h3><b>Portfolio: preserve data in the browser</b></h3>
 
 </div>
 
