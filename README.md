@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <h3><b>Portfolio: details popup window</b></h3>
+  <h3><b>Portfolio: preserve data in the browser</b></h3>
 
 </div>
 
@@ -26,12 +26,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio: details popup window] <a name="about-project"></a>
+# 📖 [Portfolio: preserve data in the browser] <a name="about-project"></a>
 
 
-**For this milestone of our portfolio website, we implement a popup window that includes the project details in both desktop and mobile. In order to do that, we used to store the information about our projects in a JavaScript object..**
-
-
+**For this   final milestone of our portfolio website, we save the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.**
 
 ## 🛠 Built With <a name="built-with"></a>
      1.css
@@ -50,11 +48,9 @@
 
 ### Key Features <a name="key-features"></a>
 
--**When the user clicks (or taps) the button to check project details, the popup with details about the project appears.**
+-**When the user changes the content of any input field, the data is saved to the local storage.**
 
--**When the user submits the form, you check if the email is in lower case.**
-
--**You should implement popups for both mobile and desktop screen sizes.**
+-**When the user loads the page, if there is any data in the local storage the input fields are pre-filled with this data.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
