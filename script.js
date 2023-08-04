@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   // preserve data in the browser
   const name = form.querySelector('#name');
-  const message = form.querySelector('#message');
+  const message = form.querySelector('#description');
 
   const storedData = localStorage.getItem('userData');
   const convertStoredData = storedData ? JSON.parse(storedData) : {};
